@@ -8,10 +8,8 @@ Alleg offers limited functionality for connecting to an Allegiance MS SQL Server
 database with ADODB. Alleg should allow developers the ability to write PHP on
 a Unix or Linux machine, test locally, and then upload to a Windows machine.
 
-Most of the code is procedural and, therefore, not easily extensible, such as:
-
-  pledge_drive_email.php
-  pledge_breaks.php
+Most of the code is procedural and, therefore, not easily extensible, such as
+pledge_drive_email.php and pledge_breaks.php
 
 Some effort has been made to make the code more object-oriented
 (src/Alleg/DatabaseConnection.php) and this functionality may be extended.
