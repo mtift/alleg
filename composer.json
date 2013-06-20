@@ -1,0 +1,10 @@
+{
+    "require": {
+        "adodb/adodb-php": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "Alleg\\": "src/"
+        }
+    }
+}
